@@ -83,11 +83,12 @@ public class RepubblicaMain {
                 Articolo art = (Articolo) articles.get(9);
                 System.out.println("10th article:\n" + art.toString() + "\n");
                 envConfig.openLinkInNewTab(art.getLink());
+                envConfig.switchInFisrtTab();
             }
         }
 
         //esco dal driver
-        //envConfig.quit(1500L);
+        envConfig.quit(1500L);
 
     }
 
