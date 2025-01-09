@@ -2,12 +2,13 @@ package Lezione2D19122024.articolo;
 
 public class Articolo {
 
-    private String title, subtitle, author;
+    private String title, subtitle, author, link;
 
-    public Articolo(String title, String subtitle, String author) {
+    public Articolo(String title, String subtitle, String author, String link) {
         this.title = title;
         this.subtitle = subtitle;
         this.author = author;
+        this.link = link;
     }
 
     //getter & setter
@@ -35,9 +36,17 @@ public class Articolo {
         this.author = author;
     }
 
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
     //toString
     @Override
     public String toString() {
-        return getClass().getSimpleName() + " [title=" + title + ", subtitle=" + subtitle + ", author= " + author + "]";
+        return getClass().getSimpleName() + " [title=" + title + ", subtitle=" + subtitle + ", author= " + author + ", link= " + link + "]";
     }
 }

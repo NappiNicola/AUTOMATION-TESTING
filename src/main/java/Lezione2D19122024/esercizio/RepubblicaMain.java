@@ -14,7 +14,6 @@ import Lezione2D19122024.articolo.Articolo;
 import org.openqa.selenium.WebElement;
 import utils.log.Log;
 import webdriver.EnvConfig;
-
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -41,7 +40,10 @@ public class RepubblicaMain {
         
         //scroll fino a 'I Fatti del giorno'
         element = envConfig.getElementByAttribute("data-bid", "RIAPERTURA-BRONZO", null);
-        envConfig.scrollToElement(element);
+
+        if(element != null) {
+            envConfig.scrollToElement(element);
+        }
 
         //scrollo tutta la pagina
         envConfig.scrollFullPage();
@@ -50,8 +52,11 @@ public class RepubblicaMain {
         lista = envConfig.getElementsByAttribute("data-bid", "fattidelgiorno", "^");
         //recupero tutti gli elementi con attributo data-bid = 'ifattidelgiornoX' e li accodo alla stessa lista di prima
         lista.addAll(envConfig.getElementsByAttribute("data-bid", "ifattidelgiorno", "^"));
-        //aggiungo i testa alla lista il primo elemento dei fatti del giorno
-        lista.addFirst(element);
+
+        if(element != null) {
+            //aggiungo i testa alla lista il primo elemento dei fatti del giorno
+            lista.addFirst(element);
+        }
 
         //creo una lista di articoli
         lista.forEach(x->{
@@ -59,7 +64,8 @@ public class RepubblicaMain {
             articles.add(
                     new Articolo(envConfig.getTextFromElement(envConfig.getChildFromParent("entry__overtitle", (WebElement) x, "className")),
                             envConfig.getTextFromElement(envConfig.getChildFromParent("entry__title", (WebElement) x, "className")),
-                            envConfig.getTextFromElement(envConfig.getChildFromParent("entry__author", (WebElement) x, "className"))
+                            envConfig.getTextFromElement(envConfig.getChildFromParent("entry__author", (WebElement) x, "className")),
+                            envConfig.getAttributeFromAnElement(envConfig.getChildFromParent("a", (WebElement) x, "tagname"), "href")
                     ));
         });
 
@@ -67,15 +73,21 @@ public class RepubblicaMain {
 
         //se la lista non è vuota
         if(!articles.isEmpty()){
-            System.out.println("First article:\n" + articles.getFirst().toString() + "\n");
+            Articolo first = (Articolo) articles.get(0);
+            System.out.println("First article:\n" + first.toString() + "\n");
+            envConfig.openLinkInNewTab(first.getLink());
+            envConfig.switchInFisrtTab();
+
             //se ci sono almeno 10 articoli
             if(articles.size() >= 9) {
-                System.out.println("10th article:\n" + articles.get(9).toString() + "\n");
+                Articolo art = (Articolo) articles.get(9);
+                System.out.println("10th article:\n" + art.toString() + "\n");
+                envConfig.openLinkInNewTab(art.getLink());
             }
         }
 
         //esco dal driver
-        envConfig.quit(1500L);
+        //envConfig.quit(1500L);
 
     }
 

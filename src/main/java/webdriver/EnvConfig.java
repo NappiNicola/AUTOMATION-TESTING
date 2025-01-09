@@ -13,6 +13,7 @@ import utils.log.Log;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 public class EnvConfig {
 
@@ -171,6 +172,7 @@ public class EnvConfig {
     /*****************************************************************************/
     public WebElement getElementByAttribute(String attribute, String value, String type){
 
+        try{
         if(type == null){
             String selector = "[" + attribute + "="+value+"]";
             Log.info("Get all elements by selector: " + selector);
@@ -180,6 +182,9 @@ public class EnvConfig {
         String selector = "[" + attribute + type + "="+value+"]";
         Log.info("Get all elements by selector: " + selector);
         return driver.findElement(By.cssSelector(selector));
+        } catch (Exception e){
+            return null;
+        }
     }
 
     /*****************************************************************************/
@@ -299,6 +304,22 @@ public class EnvConfig {
             driver.switchTo().window(tab);
         }
 
+    }
+
+    /*****************************************************************************/
+    /*                           SWITCH AL PRIMO TAB                             */
+    /*****************************************************************************/
+    public void switchInFisrtTab(){
+        Set<String> windowHandles = driver.getWindowHandles();
+        ArrayList<String> tabs = new ArrayList<>(windowHandles);
+        driver.switchTo().window(tabs.get(0));
+    }
+
+    /*****************************************************************************/
+    /*                   RECUPERA UN ATTRIBUTO DA UN ELEMENTO                    */
+    /*****************************************************************************/
+    public String getAttributeFromAnElement(WebElement element, String attribute){
+        return element.getAttribute(attribute);
     }
 
     /*****************************************************************************/

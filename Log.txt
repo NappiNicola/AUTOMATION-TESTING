@@ -86,4 +86,3 @@
 71. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=ifattidelgiorno]]
 72. Driver successfully quit!
 ------------------------------------
-
