@@ -1,0 +1,89 @@
+<<--- Run: 2024-12-19 18:55:14 --->>
+
+1. Chrome driver loaded
+2. Setup finished!
+3. Page loaded: https://www.google.com/
+4. Coockie Accepted!
+5. Type: Chrome Driver
+6. Sending Text with ENTER button!
+7. Done sending text!
+8. Element: (Download | ChromeDriver - Chrome for Developers) clicked!
+9. Element: (dashboard di disponibilità di Chrome per i test) clicked!
+10. Driver successfully quit!
+------------------------------------
+<<--- Run: 2025-01-09 12:00:07 --->>
+
+1. Chrome driver loaded
+2. Setup finished!
+3. Page loaded: https://www.repubblica.it/
+4. Coockie Accepted!
+5. Get all elements by selector: [data-bid=RIAPERTURA-BRONZO]
+6. Scroll to element: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid=RIAPERTURA-BRONZO]]!
+7. Get all elements by selector: [data-bid^=fattidelgiorno]
+8. Get all elements by selector: [data-bid^=ifattidelgiorno]
+9. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid=RIAPERTURA-BRONZO]]
+10. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid=RIAPERTURA-BRONZO]]
+11. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid=RIAPERTURA-BRONZO]]
+12. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+13. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+14. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+15. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+16. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+17. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+18. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+19. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+20. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+21. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+22. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+23. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+24. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+25. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+26. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+27. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+28. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+29. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+30. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+31. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+32. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+33. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+34. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+35. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+36. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+37. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+38. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+39. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+40. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+41. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+42. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+43. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+44. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+45. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+46. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+47. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+48. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+49. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+50. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+51. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+52. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+53. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+54. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+55. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+56. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+57. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+58. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+59. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+60. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+61. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+62. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+63. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+64. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+65. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=fattidelgiorno]]
+66. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=ifattidelgiorno]]
+67. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=ifattidelgiorno]]
+68. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=ifattidelgiorno]]
+69. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=ifattidelgiorno]]
+70. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=ifattidelgiorno]]
+71. Get child from parent: [[ChromeDriver: chrome on windows (7e85a63964d7f5a58f11524ac317cbdb)] -> css selector: [data-bid^=ifattidelgiorno]]
+72. Driver successfully quit!
+------------------------------------
+
